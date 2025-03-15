@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <memViz.h>
 
 void visualizeMemory(void* ptr, size_t size) {
     unsigned char* byte_ptr = (unsigned char*)ptr;
